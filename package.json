@@ -1,16 +1,13 @@
 {
-  "name": "yt-api",
+  "name": "yt",
   "version": "1.0.0",
+  "description": "Simple API for downloading YouTube videos",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "start": "node index.js"
   },
-  "keywords": [],
-  "author": "",
-  "license": "ISC",
-  "description": "",
   "dependencies": {
-    "express": "^4.19.2",
-    "ytdl-core": "^4.11.5"
+    "express": "^4.17.1",
+    "ytdl-core": "^4.9.1"
   }
 }
